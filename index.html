@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div id="main">
+        
+        <h1>Service Invoice</h1>
+        <p class="h-text">Thank you for choosing <b>InstantService Company.</b></p>
+        
+        <div id="buttons">
+            <button id="btn-1">Laundry: Ksh1000</button>
+            <button id="btn-2">Weed Garden: Ksh500</button>
+            <button id="btn-3">Clean House: Ksh3500</button>
+            <button id="btn-4">Plumbing: Ksh500</button>
+            <button id="btn-5">Vaccum Seats: Ksh4000</button>
+            <button id="btn-6">Wash Carpet: Ksh1500</button>
+            <button id="btn-7">Internet Installation: Ksh4500</button>
+
+            ,
+        </div>
+        <div class="task-total">
+            <div class="task">
+                <p>TASK</p>
+                <ul id="task-list"></ul>
+            </div>
+            <div class="total">
+                <p>TOTAL</p>
+                <ul id="total-list"></ul>
+            </div>
+        </div>
+        <hr>
+        <div class="notes-amount">
+            <div class="notes">
+                <P >NOTES</P> 
+                <p style="color: rgb(148, 86, 11);font-style: italic;">We accept Cash, M-pesa or Paypal </p>
+            </div>
+            <div class="t-amt">
+                <P>TOTAL AMOUNT</P>
+                <p id="total-amt"></p>
+            </div>
+
+        </div>
+        <button id="invoice-btn">
+            <i class="material-icons">mail</i>
+            Send Invoice</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
